@@ -1,5 +1,6 @@
 # from selenium import webdriver
-import time, os, shutil
+import time, os, shutil, git
+# Packages for git clone: GitPython
 
 # path = "/home/arch/Documents/GitHub/archlinux/chrome-driver/chromedriver"
 # driver = webdriver.Chrome(path)
@@ -8,8 +9,8 @@ class arch_auto():
         os.system("sudo pacman -Syyuu")
         os.system("sudo pacman -S xorg-fonts-misc dmenu rofi firefox vlc code blender virtualbox pcmanfm git alacritty")
         os.system("sudo yay -S picom-git github-desktop google-chrome polybar-git stgithub-degithub-degithub-desktopsktopsktopremio python-pip zsh")
-        os.system("pip install pandas numpy selenium kivy flask")
-        os.system("git clone https://github.com/llalex25ll/config_archlinux_i3wm.git")
+        os.system("pip install pandas numpy selenium kivy flask GitPython")
+        git.Git("~/").clone("https://github.com/llalex25ll/config_archlinux_i3wm.git")
         os.system("sudo pacman -Syyuu")
         print("Things i need to download manually:\n    siji-git\n    ttf-unifont")
         time.sleep(5)
