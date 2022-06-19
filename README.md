@@ -1,2 +1,0 @@
-# archlinux
-Auto installer
