@@ -14,6 +14,7 @@ class arch_auto():
 
     def files_setup():
         os.chidr('~/i3wm')
+        subprocess.run(['bash', '-c', 'git checkout main2'])    
         subprocess.run(['bash', '-c', 'cp -r alacritty i3 picom rofi polybar ~/.config'])
         subprocess.run(['bash', '-c', 'cp -r .vimrc .zshrc .zsh .vim .oh-my-zsh ~/'])
         subprocess.run(['bash', '-c', 'cp -r kU6QGsW.jpeg ~/Pictures']) 
