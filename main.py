@@ -1,4 +1,4 @@
-import subprocess, os
+import subprocess, os, shutill
 
 class arch_auto():
     def packages_installer():
